@@ -1,0 +1,7 @@
+--Build & rebuilding on file changes--
+
+ng serve
+
+--Run the serve--
+
+json-server --watch db.json

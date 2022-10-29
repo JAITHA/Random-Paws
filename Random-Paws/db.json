@@ -1,0 +1,34 @@
+{
+  "dogs": [
+    {
+      "id": 2,
+      "fileSizeBytes": 1148520,
+      "url": "https://random.dog/ecac798e-c8da-46a4-a6a2-d401ba8ba2f2.png"
+    },
+    {
+      "id": 3,
+      "fileSizeBytes": 51803,
+      "url": "https://random.dog/20ce0116-cd55-4370-a728-ed6f37fc6c4b.jpg"
+    },
+    {
+      "id": 4,
+      "fileSizeBytes": 164741,
+      "url": "https://random.dog/c814f405-4bf3-40ac-a7a3-7adbf5ef8703.jpg"
+    },
+    {
+      "id": 5,
+      "fileSizeBytes": 78569,
+      "url": "https://random.dog/69b00196-1f0e-4baa-916a-d66766d57d7d.jpg"
+    },
+    {
+      "id": 6,
+      "fileSizeBytes": 511592,
+      "url": "https://random.dog/d71ba395-30ad-4e1c-b022-4a6b16c9e77b.jpg"
+    },
+    {
+      "id": 7,
+      "fileSizeBytes": 56407,
+      "url": "https://random.dog/13973-10200-28695.jpg"
+    }
+  ]
+}

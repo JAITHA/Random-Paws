@@ -1,0 +1,23 @@
+<div class="main">
+    <div class="btn-add">
+        <button type="button" class="btn btn-outline-dark" (click)="loadmore()">Shuffle</button>
+    </div>
+<div class="container">
+  <ul>
+    <li *ngFor="let pic of picture; let i = index" [attr.data-index]="i">
+      <a>
+            <img class="mainimg" [src]="pic" height="300rem" width="350rem" />
+        <div class="row">
+          <div class="col">
+            <h5>--Breed-- {{ pic.split("/")[4] | uppercase }}</h5>
+          </div>
+          <div class="col">
+            <img src="https://img.icons8.com/color/60/000000/hearts.png" />
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+
+</div>

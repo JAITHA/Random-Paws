@@ -1,0 +1,65 @@
+@import "../dogs/dogs.component.scss";
+
+$Title-font-style:'Finlandica', sans-serif;
+
+.main{
+    background-color: $BG-color;
+    height: 500%;
+
+.title {
+  text-align: center;
+  color: $Feedtext-Color;
+  padding-top: 20px;
+  font-family: $Title-font-style;
+}
+
+.container {
+    padding-top: 60px;
+    padding-bottom: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $BG-color;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    li a {
+      height: 24rem;
+      width: 18rem;
+      border: $Border-box-color;
+      border-radius: 1rem;
+      margin: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      .mainimg {
+        transition: 3s ease;
+        &:hover {
+          -webkit-filter: blur(5px);
+          transition: 1s ease;
+        }
+      }
+      li a:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      div {
+        margin-top: 5px;
+        text-align: center;
+        img {
+          margin-top: 10px;
+          cursor: pointer;
+          &:hover{
+            margin-right: 20px;
+            transition: 1s ease;
+          }
+        }
+      }
+    }
+  }
+}
+}

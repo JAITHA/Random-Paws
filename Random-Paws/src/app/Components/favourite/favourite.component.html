@@ -1,0 +1,22 @@
+<div class="main">
+  <div class="title">
+    <h2>My Favourite</h2>
+  </div>
+  <div class="container">
+    <ul>
+      <li *ngFor="let pic of favpicture; let i = index" [attr.data-index]="i">
+        <a>
+          <img class="mainimg" [src]="pic.url" height="300rem" width="350rem" />
+          <div class="row">
+            <div class="col">
+              <img
+                (click)="deleteFav(pic.id)"
+                src="https://img.icons8.com/ios-glyphs/30/FFFFFF/delete-forever.png"
+              />
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+$content-font-Style: "Finlandica", sans-serif;
+$Border-box-color: 2px solid rgb(246, 241, 241);
+$Feedtext-Color: white;
+$BG-color: black;
+
+.main {
+  background-color: $BG-color;
+  .btn-add {
+    text-align: center;
+    padding-top: 20px;
+    justify-content: center;
+    .btn {
+      color: $Feedtext-Color;
+      border: 2px solid $Feedtext-Color;
+      &:hover{
+        background-color: $Feedtext-Color;
+        color: $BG-color;
+        font-weight: 500;
+      }
+    }
+  }
+  .container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $BG-color;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      list-style-type: none;
+      padding: 0;
+      li a {
+        height: 25rem;
+        width: 18rem;
+        border: $Border-box-color;
+        border-radius: 1rem;
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        .mainimg {
+          transition: 3s ease;
+          &:hover {
+            -webkit-filter: blur(5px);
+            transition: 1s ease;
+          }
+        }
+        li a:hover {
+          opacity: 0.9;
+          cursor: pointer;
+        }
+        div {
+          text-align: center;
+          .col {
+            margin-top: 5px;
+            h5 {
+              padding-top: 12px;
+              margin-left: 15px;
+              color: $Feedtext-Color;
+              font-family: $content-font-Style;
+            }
+            img {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
